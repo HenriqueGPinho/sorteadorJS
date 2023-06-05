@@ -4,6 +4,7 @@
   "description": "Random number generator to practice the use of Grunt tools in a project",
   "main": "index.js",
   "scripts": {
+    "grunt": "grunt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/HenriqueGPinho/sorteadorJS/issues"
   },
-  "homepage": "https://github.com/HenriqueGPinho/sorteadorJS#readme"
+  "homepage": "https://github.com/HenriqueGPinho/sorteadorJS#readme",
+  "devDependencies": {
+    "grunt": "^1.6.1"
+  }
 }
